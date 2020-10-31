@@ -1,3 +1,5 @@
+### the ufcstats website also list upcoming fights so we may need to manually remove those from the csv
+
 import urllib.request
 from bs4 import BeautifulSoup
 import pandas as pd

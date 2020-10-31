@@ -19,4 +19,4 @@ You need to activate the virual env to be able to access the libraries and for t
 In the DataStorage folder the file fighter_details_links.csv contains all of the links that you will need
 to read.
 
-When you write your, output the data into files in this folder.
+When you write your code, output the data into files in this folder.
