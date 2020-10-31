@@ -14,10 +14,6 @@ soup = BeautifulSoup(r, 'html.parser')
 
 rounds = int(soup.find_all('i', attrs={'class': 'b-fight-details__text-item'})[0].getText().strip()[24])
 
-fighters = []
-for name in soup.find_all('h3', attrs={'class': 'b-fight-details__person-name'}):
-    fighters.append(name.getText().strip())
-
 out = []
 for status in soup.find_all('i', attrs={'class': re.compile('(b-fight-details__person-status)')}):
     out.append(status.getText().strip())
@@ -35,7 +31,6 @@ for stat in soup.find_all('p', attrs={'class': 'b-fight-details__table-text'}):
 keep += stats[0:20]
 keep += stats[20*(rounds+1): 20*(rounds+2)-2]
 
-print(fighters)  
 print(out)  
 print(method)
 print(keep)

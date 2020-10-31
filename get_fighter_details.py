@@ -1,25 +1,32 @@
-## getting a link for each fighters personal page
-## This script loops through the letters of the alphabet to get a url for each page that lists fighters
-## Then it reads the page to get the links to each fighters personal page
+## this script gets a link to each personal fighters page
+## due to the extensive number of fighters we're only using the top 16 current fighters in every weight division
+## the script works for everyone except Chan Sung Jun, so for him we just manually get the link
 
 import urllib.request
 from bs4 import BeautifulSoup
 import re
 import string
 import pandas as pd
+from random import sample
 
-alpha = list(string.ascii_lowercase)
+fighters = pd.read_csv(r'DataStorage\\cur_fighters.csv', squeeze=True)
+fighter_links = dict.fromkeys(fighters)
 
-fighters = []
+for fighter in fighters:
+        names = fighter.split(' ')
+        if len(names) == 3:
+                q = names[1] + '+' + names[2]
+                names[1] = names[1] + ' ' + names[2]
+        else:
+                q = names[1]
+        url = 'http://www.ufcstats.com/statistics/fighters/search?query=' + q + '&page=all'
+        
+        r = urllib.request.urlopen(url).read()
+        soup = BeautifulSoup(r, 'html.parser')
 
-for letter in alpha:
-    url = 'http://www.ufcstats.com/statistics/fighters?char=' + letter + '&page=all'
-
-    r = urllib.request.urlopen(url).read()
-    soup = BeautifulSoup(r, 'html.parser')
-
-    for link in soup.find_all('a', attrs={'href': re.compile('(fighter-details)')}):
-        fighters.append(link.get('href'))
-
-table = pd.DataFrame(fighters, columns=['Link'])
-table.to_csv(r'DataStorage\\fighter_details_links.csv', index=False)
+        for link in soup.find_all('a', attrs={'href': re.compile('(fighter-details)')}):
+                if link.getText().strip() == names[0]:
+                        fighter_links[fighter] = link.get('href')
+                        break
+table = pd.DataFrame.from_dict(fighter_links, orient='index', columns=['Link'])
+table.to_csv(r'DataStorage\fighter_details_links.csv')
