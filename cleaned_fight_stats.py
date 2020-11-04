@@ -22,6 +22,10 @@ df = df_raw.drop('Unnamed: 0',axis=1)
 #Replace values
 mapping_dict = {"L": 0, "W": 1, '---': np.nan, '--': np.nan, "25:00:00": "25:00", "24:56:00": "24:56", "24:59:00": "24:59", "24:10:00": "24:10"}
 df.replace(mapping_dict, inplace=True)
+df = df.drop(df[df.M_RES == "D"].index)
+df = df.drop(df[df.M_RES == "NC"].index)
+df = df.drop(df[df.OP_RES == "D"].index)
+df = df.drop(df[df.OP_RES == "NC"].index)
 
 # Convert time into integer seconds
 df['TIME'] = df['TIME'].apply(calculate_seconds)
