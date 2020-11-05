@@ -34,8 +34,7 @@ for c in range(3, 9):
 
     fig.savefig(r'DataStorage\\Clusters\\'+str(c)+'clusters.png')
 
-    if c==4:
-        fighters_cl = pd.DataFrame(df['M_NAME'])
-        fighters_cl['Cluster'] = clK
-        fighters_cl.to_csv(r'DataStorage\\clustering5.csv')
+    fighters_cl = pd.DataFrame(df['M_NAME'])
+    fighters_cl['Cluster'] = clK
+    fighters_cl.to_csv(r'DataStorage\\Clusters\\'+str(c)+'clusters.csv')
 
