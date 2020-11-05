@@ -34,14 +34,9 @@ df['OP_CTRL'] = df['OP_CTRL'].apply(calculate_seconds)
 
 # Split 'X of Y' columns into separate 'X' and 'Y' columns
 columns_to_split = ['M_SIG_STR', 'M_TOTAL_STR', 'M_TD', 'M_HEAD', 'M_BODY', 'M_LEG', 'M_DIST', 'M_CLIN', 'M_GROUND', 'OP_SIG_STR', 'OP_TOTAL_STR' ,'OP_TD', 'OP_HEAD', 'OP_BODY', 'OP_LEG', 'OP_DIST', 'OP_CLIN', 'OP_GROUND']
-columns_to_remove = ['M_SIG_STR', 'M_TOTAL_STR', 'M_TD', 'M_HEAD', 'M_BODY', 'M_LEG', 'M_DIST', 'M_CLIN', 'M_GROUND', 'OP_SIG_STR', 'OP_TOTAL_STR' ,'OP_TD', 'OP_HEAD', 'OP_BODY', 'OP_LEG', 'OP_DIST', 'OP_CLIN', 'OP_GROUND']
 
 for i in columns_to_split:
   first_column = df[i].apply(split_column_first)
-  second_column = df[i].apply(split_column_second)
-  df[i + "_SUCC"] = pd.to_numeric(first_column)
-  df[i + "_TOTAL"] = pd.to_numeric(second_column)
-
-df.drop(columns_to_remove,inplace=True,axis=1)
+  df[i] = pd.to_numeric(first_column)
 
 df.to_csv(r'DataStorage\\cleaned_fight_stats.csv')
