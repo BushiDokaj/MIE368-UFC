@@ -30,6 +30,7 @@ for c in range(3, 9):
         title = 'Centroid Values in Cluser ' + str(i)
         axs[i].set_title(title)
         axs[i].tick_params(labelrotation=90)
+        axs[i].grid(True, alpha=0.3)
 
 
     fig.savefig(r'DataStorage\\Clusters\\'+str(c)+'clusters.png')

@@ -9,8 +9,11 @@ stats = pd.read_csv(r'DataStorage\\cleaned_fight_stats.csv')
 stats = stats.iloc[:, 1:]
 stats = stats.drop(['OP_NAME'], axis=1)
 stats = pd.get_dummies(stats, columns=['Method'])
-stats['M_SIG_STR_P'] = pd.to_numeric(stats['M_SIG_STR_P'].str.rstrip('%'))
-stats['M_TD_P'] = pd.to_numeric(stats['M_TD_P'].str.rstrip('%'))
+# stats['M_SIG_STR_P'] = pd.to_numeric(stats['M_SIG_STR_P'].str.rstrip('%'))
+# stats['M_TD_P'] = pd.to_numeric(stats['M_TD_P'].str.rstrip('%'))
+# stats['OP_SIG_STR_P'] = pd.to_numeric(stats['OP_SIG_STR_P'].str.rstrip('%'))
+# stats['OP_TD_P'] = pd.to_numeric(stats['OP_TD_P'].str.rstrip('%'))
+
 
 cols_st = list(stats.columns.values)[4:-7]
 cols_st.remove('M_SIG_STR_P')
@@ -33,7 +36,7 @@ for col in cols_st:
 # takedown_p = takedown_p.groupby('M_NAME').mean()
 
 control_time = stats[['M_NAME', 'M_CTRL']]
-control_time = control_time.groupby('M_NAME').sum().apply(sectomin)
+control_time = control_time.groupby('M_NAME').mean().apply(sectomin)
 
 # result_means = stats[['M_NAME', 'M_RES']].groupby('M_NAME').mean()
 
@@ -45,7 +48,8 @@ control_time = control_time.groupby('M_NAME').sum().apply(sectomin)
 # takedown_p_OP = takedown_p_OP.groupby('OP_NAME').mean()
 
 control_time_OP = stats[['M_NAME', 'OP_CTRL']]
-control_time_OP = control_time_OP.groupby('M_NAME').sum().apply(sectomin)
+control_time_OP = control_time_OP.groupby('M_NAME').mean().apply(sectomin)
+
 
 # result_means_OP = stats[['OP_NAME', 'OP_RES']].groupby('OP_NAME').mean()
 
