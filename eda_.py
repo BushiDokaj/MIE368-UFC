@@ -28,12 +28,12 @@ def worst_plot(stat):
 fighter_sums = stats.groupby(["M_NAME"]).sum()
 
 # normalizing the plots for time
-# fighter_sums["TIME"] = fighter_sums["TIME"].apply(sectomin)
-# fighter_sums["M_SIG_STR"] = fighter_sums["M_SIG_STR"] / fighter_sums["TIME"]
-# fighter_sums["M_SUB_ATT"] = fighter_sums["M_SUB_ATT"] / fighter_sums["TIME"]
-# fighter_sums["M_CLIN"] = fighter_sums["M_CLIN"] / fighter_sums["TIME"]
-# fighter_sums["M_GROUND"] = fighter_sums["M_GROUND"] / fighter_sums["TIME"]
-# fighter_sums["M_TD"] = fighter_sums["M_TD"] / fighter_sums["TIME"]
+fighter_sums["TIME"] = fighter_sums["TIME"].apply(sectomin)
+fighter_sums["M_SIG_STR"] = fighter_sums["M_SIG_STR"] / fighter_sums["TIME"]
+fighter_sums["M_SUB_ATT"] = fighter_sums["M_SUB_ATT"] / fighter_sums["TIME"]
+fighter_sums["M_CLIN"] = fighter_sums["M_CLIN"] / fighter_sums["TIME"]
+fighter_sums["M_GROUND"] = fighter_sums["M_GROUND"] / fighter_sums["TIME"]
+fighter_sums["M_TD"] = fighter_sums["M_TD"] / fighter_sums["TIME"]
 
 best_strikers = fighter_sums.nlargest(5, ["M_SIG_STR"])["M_SIG_STR"]
 best_subs = fighter_sums.nlargest(5, ["M_SUB_ATT"])["M_SUB_ATT"]
@@ -50,7 +50,7 @@ worst_takedown = fighter_sums.nsmallest(5, ["M_TD"])["M_TD"]
 # worst_plot(worst_strikers)
 
 # get a best plot for a stat
-# best_plot(best_strikers)
+best_plot(best_strikers)
 
 # get correlation matrix only for main fighter (clustering)
 # df = stats.iloc[:, 1:17]
@@ -102,13 +102,13 @@ for f in ko_fighters_uni:
 
 top_ko = dict(Counter(ko_counts).most_common(15))
 
-# plt.bar(top_ko.keys(), top_ko.values(), color='teal')
-# plt.xlabel('Fighter')
-# plt.xticks(rotation=12)
-# plt.ylabel('Count')
-# plt.title('Count of KO/TKO victories per fighter')
-# plt.grid(True, alpha=0.3)
-# plt.show()
+plt.bar(top_ko.keys(), top_ko.values(), color='teal')
+plt.xlabel('Fighter')
+plt.xticks(rotation=12)
+plt.ylabel('Count')
+plt.title('Count of KO/TKO victories per fighter')
+plt.grid(True, alpha=0.3)
+plt.show()
 
 # get fights that ended in a decision and the main fighter won
 stats_dec = stats[((stats.Method == 'Decision - Unanimous') | (stats.Method == 'Decision - Split')) & (stats.M_RES == 1)]
