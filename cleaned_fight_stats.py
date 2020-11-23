@@ -16,8 +16,8 @@ def split_column_second(string_to_split):
   first, second = string_to_split.split(' of ')
   return second
 
-df_raw = pd.read_csv(r'DataStorage\\fight_stats.csv')
-df = df_raw.drop('Unnamed: 0',axis=1)
+df = pd.read_csv(r'expanded_data\\all_fights.csv')
+# df = df_raw.drop('Unnamed: 0',axis=1)
 
 #Replace values
 mapping_dict = {"L": 0, "W": 1, '---': np.nan, '--': np.nan, "25:00:00": "25:00", "24:56:00": "24:56", "24:59:00": "24:59", "24:10:00": "24:10"}
@@ -39,4 +39,4 @@ for i in columns_to_split:
   first_column = df[i].apply(split_column_first)
   df[i] = pd.to_numeric(first_column)
 
-df.to_csv(r'DataStorage\\cleaned_fight_stats.csv')
+df.to_csv(r'expanded_data\\cleaned_fight_stats.csv')

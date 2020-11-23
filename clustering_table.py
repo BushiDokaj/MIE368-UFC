@@ -4,7 +4,7 @@ import numpy as np
 def sectomin(x):
     return x/60
 
-stats = pd.read_csv(r'DataStorage\\cleaned_fight_stats.csv')
+stats = pd.read_csv(r'expanded_data\\cleaned_fight_stats.csv')
 
 stats = stats.iloc[:, 1:]
 stats = stats.drop(['OP_NAME'], axis=1)
@@ -62,4 +62,4 @@ stats['OP_CTRL'] = control_time_OP['OP_CTRL']
 
 stats = stats.drop(['ROUNDS', 'TIME'], axis=1)
 
-stats.to_csv(r'DataStorage\\clustering_stats.csv')
+stats.to_csv(r'expanded_data\\clustering_stats.csv')
