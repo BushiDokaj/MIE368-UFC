@@ -1,179 +1,4 @@
 ,M_NAME,Cluster
-0,Al Iaquinta,1
-1,Aleksandar Rakic,4
-2,Aleksei Oleinik,1
-3,Alex Perez,2
-4,Alexander Volkanovski,2
-5,Alexander Volkov,2
-6,Alexandre Pantoja,1
-7,Alexis Davis,3
-8,Alistair Overeem,2
-9,Aljamain Sterling,4
-10,Amanda Nunes,0
-11,Amanda Ribas,4
-12,Andrea Lee,2
-13,Angela Hill,3
-14,Anthony Pettis,1
-15,Anthony Smith,1
-16,Antonina Shevchenko,1
-17,Arnold Allen,1
-18,Askar Askarov,4
-19,Aspen Ladd,3
-20,Augusto Sakai,2
-21,Beneil Dariush,1
-22,Blagoy Ivanov,1
-23,Brad Tavares,1
-24,Brandon Moreno,1
-25,Brandon Royval,1
-26,Brian Ortega,3
-27,Bryce Mitchell,4
-28,Calvin Kattar,3
-29,Carla Esparza,4
-30,Chan Sung Jung,0
-31,Charles Oliveira,1
-32,Chris Weidman,4
-33,Ciryl Gane,1
-34,Claudia Gadelha,1
-35,Cody Garbrandt,1
-36,Cody Stamann,1
-37,Colby Covington,4
-38,Conor McGregor,0
-39,Cory Sandhagen,2
-40,Curtis Blaydes,4
-41,Cynthia Calvillo,1
-42,Dan Hooker,2
-43,Dan Ige,2
-44,Darren Till,1
-45,David Dvorak,1
-46,Deiveson Figueiredo,1
-47,Demian Maia,4
-48,Derek Brunson,2
-49,Derrick Lewis,1
-50,Diego Ferreira,2
-51,Dominick Cruz,4
-52,Dominick Reyes,2
-53,Donald Cerrone,3
-54,Drew Dober,2
-55,Dustin Poirier,2
-56,Edmen Shahbazyan,0
-57,Edson Barboza,1
-58,Felice Herrig,1
-59,Francis Ngannou,2
-60,Frankie Edgar,4
-61,Geoff Neal,2
-62,Germaine de Randamie,1
-63,Gilbert Burns,1
-64,Gillian Robertson,4
-65,Glover Teixeira,2
-66,Gregor Gillespie,2
-67,Holly Holm,1
-68,Ian Heinisch,2
-69,Irene Aldana,3
-70,Islam Makhachev,4
-71,Israel Adesanya,1
-72,Jack Hermansson,2
-73,Jairzinho Rozenstruik,0
-74,Jan Blachowicz,1
-75,Jared Cannonier,1
-76,Jennifer Maia,1
-77,Jeremy Stephens,1
-78,Jessica Andrade,3
-79,Jessica Eye,1
-80,Jimmie Rivera,1
-81,Jimmy Crute,2
-82,Jiri Prochazka,3
-83,Joanna Jedrzejczyk,2
-84,Joanne Calderwood,2
-85,Johnny Walker,2
-86,Jordan Espinosa,1
-87,Jorge Masvidal,2
-88,Jose Aldo,1
-89,Joseph Benavidez,1
-90,Josh Emmett,1
-91,Julia Avila,0
-92,Julianna Pena,4
-93,Junior Dos Santos,1
-94,Jussier Formiga,1
-95,Justin Gaethje,3
-96,Kai Kara-France,2
-97,Kamaru Usman,4
-98,Katlyn Chookagian,1
-99,Kelvin Gastelum,1
-100,Ketlen Vieira,4
-101,Kevin Lee,4
-102,Khabib Nurmagomedov,4
-103,Lauren Murphy,1
-104,Leon Edwards,4
-105,Lina Lansberg,1
-106,Mackenzie Dern,1
-107,Macy Chiasson,2
-108,Magomed Ankalaev,2
-109,Marcin Tybura,4
-110,Marina Rodriguez,2
-111,Marion Reneau,1
-112,Marlon Moraes,1
-113,Marlon Vera,1
-114,Marvin Vettori,2
-115,Matt Schnell,1
-116,Mauricio Rua,1
-117,Max Holloway,2
-118,Maycee Barber,2
-119,Merab Dvalishvili,4
-120,Michael Chiesa,4
-121,Michelle Waterson,1
-122,Misha Cirkunov,2
-123,Montana De La Rosa,4
-124,Nate Diaz,2
-125,Neil Magny,4
-126,Nikita Krylov,2
-127,Nina Ansaroff,1
-128,Omari Akhmedov,1
-129,Pannie Kianzad,1
-130,Paul Craig,1
-131,Paul Felder,1
-132,Paulo Costa,3
-133,Pedro Munhoz,3
-134,Petr Yan,2
-135,Rafael Dos Anjos,1
-136,Raphael Assuncao,1
-137,Raquel Pennington,1
-138,Raulian Paiva,1
-139,Rob Font,2
-140,Robbie Lawler,1
-141,Robert Whittaker,2
-142,Rogerio Bontorin,1
-143,Rose Namajunas,1
-144,Roxanne Modafferi,4
-145,Ryan Hall,1
-146,Ryan Spann,3
-147,Sara McMann,4
-148,Sergei Pavlovich,0
-149,Shamil Abdurakhimov,1
-150,Shane Burgos,3
-151,Sijara Eubanks,4
-152,Sodiq Yusuff,2
-153,Song Yadong,1
-154,Stephen Thompson,1
-155,Stipe Miocic,2
-156,Tecia Torres,1
-157,Thiago Santos,1
-158,Tim Elliott,4
-159,Tony Ferguson,2
-160,Tyron Woodley,1
-161,Tyson Nam,1
-162,Uriah Hall,1
-163,Valentina Shevchenko,4
-164,Vicente Luque,3
-165,Virna Jandiroba,4
-166,Viviane Araujo,3
-167,Volkan Oezdemir,3
-168,Walt Harris,2
-169,Yair Rodriguez,1
-170,Yan Xiaonan,2
-171,Yana Kunitskaya,4
-172,Yoel Romero,1
-173,Zabit Magomedsharipov,4
-174,Zhang Weili,0
 175,Aalon Cruz,3
 176,Aaron Brink,1
 177,Aaron Phillips,1
@@ -205,6 +30,7 @@
 203,Akihiro Gono,1
 204,Akira Corassani,3
 205,Akitoshi Tamura,1
+0,Al Iaquinta,1
 206,Alan Baudot,3
 207,Alan Belcher,1
 208,Alan Jouban,2
@@ -220,8 +46,10 @@
 218,Alejandro Garcia,1
 219,Alejandro Perez,1
 220,Aleksa Camur,1
+1,Aleksandar Rakic,4
 221,Aleksandra Albu,1
 222,Aleksei Kunchenko,1
+2,Aleksei Oleinik,1
 223,Alen Amedovski,3
 224,Alessio Di Chirico,1
 225,Alessio Sakara,1
@@ -236,6 +64,7 @@
 234,Alex Morono,1
 235,Alex Nicholson,3
 236,Alex Oliveira,4
+3,Alex Perez,2
 237,Alex Reyes,3
 238,Alex Ricci,1
 239,Alex Schoenauer,3
@@ -248,15 +77,21 @@
 246,Alexander Gustafsson,1
 247,Alexander Hernandez,2
 248,Alexander Munoz,3
+4,Alexander Volkanovski,2
+5,Alexander Volkov,2
 249,Alexander Yakovlev,1
 250,Alexandr Romanov,4
 251,Alexandre Barros,1
 252,Alexandre Dantas,4
 253,Alexandre Ferreira,3
 254,Alexandre Franca Nogueira,1
+6,Alexandre Pantoja,1
+7,Alexis Davis,3
 255,Alexis Dufresne,4
 256,Ali AlQaisi,4
 257,Ali Bagautinov,4
+8,Alistair Overeem,2
+9,Aljamain Sterling,4
 259,Allan Goes,1
 260,Allan Zuniga,1
 261,Allen Berube,4
@@ -269,6 +104,8 @@
 268,Alvin Robinson,1
 269,Amanda Cooper,1
 270,Amanda Lemos,3
+10,Amanda Nunes,0
+11,Amanda Ribas,4
 271,Amar Suloev,1
 272,Amaury Bitetti,1
 273,Amilcar Alves,1
@@ -287,6 +124,7 @@
 286,Andre Soukhamthath,1
 287,Andre Walker,1
 288,Andre Winner,1
+12,Andrea Lee,2
 289,Andreas Michailidis,1
 290,Andreas Stahl,3
 291,Andrei Arlovski,1
@@ -298,6 +136,7 @@
 297,Andy Enz,3
 298,Andy Ogle,3
 299,Andy Wang,3
+13,Angela Hill,3
 300,Angela Magana,1
 301,Anistavio Medeiros,1
 302,Anna Elmose,1
@@ -315,12 +154,15 @@
 314,Anthony Morrison,1
 315,Anthony Njokuani,1
 316,Anthony Perosh,3
+14,Anthony Pettis,1
 317,Anthony Rocco Martin,1
 318,Anthony Ruiz,4
+15,Anthony Smith,1
 319,Anthony Torres,3
 320,Anton Kuivanen,1
 321,Anton Zafir,4
 322,Antoni Hardonk,1
+16,Antonina Shevchenko,1
 323,Antonio Arroyo,4
 324,Antonio Banuelos,1
 325,Antonio Braga Neto,1
@@ -339,6 +181,7 @@
 338,Ariel Gandulla,1
 339,Arjan Bhullar,4
 340,Arman Tsarukyan,4
+17,Arnold Allen,1
 341,Art Jimmerson,1
 342,Artem Lobov,1
 343,Asbel Cancio,3
@@ -346,16 +189,18 @@
 345,Ashkan Mokhtarian,1
 346,Ashlee Evans-Smith,1
 347,Ashley Yoder,4
+18,Askar Askarov,4
+19,Aspen Ladd,3
 348,Assuerio Silva,1
 349,Augusto Mendes,1
 350,Augusto Montano,1
+20,Augusto Sakai,2
 351,Austin Arnett,3
 352,Austin Hubbard,1
 353,Austin Lingo,1
 354,Austin Springer,1
 355,Azamat Gashimov,1
 356,Azunna Anyanwu,1
-357,BJ Penn,2
 358,Barb Honchak,1
 359,Bart Palaszewski,1
 360,Bartosz Fabinski,4
@@ -373,6 +218,7 @@
 372,Ben Sosoli,3
 373,Ben Wall,3
 374,Bendy Casimir,1
+21,Beneil Dariush,1
 375,Benito Lopez,1
 376,Benji Radach,4
 377,Benson Henderson,4
@@ -390,6 +236,8 @@
 389,Billy Miles,1
 390,Billy Quarantillo,2
 391,Billy Vaughan,1
+357,BJ Penn,2
+22,Blagoy Ivanov,1
 392,Blas Avena,1
 393,Bob Cook,1
 394,Bob Gilstrap,1
@@ -415,11 +263,14 @@
 414,Brad Pickett,1
 415,Brad Riddell,1
 416,Brad Scott,1
+23,Brad Tavares,1
 417,Branden Lee Hinkle,1
 418,Brandon Cash,2
 419,Brandon Davis,1
 420,Brandon Foxworth,1
 421,Brandon Melendez,1
+24,Brandon Moreno,1
+25,Brandon Royval,1
 422,Brandon Saling,3
 423,Brandon Shuey,1
 424,Brandon Thatch,1
@@ -445,6 +296,7 @@
 444,Brian Johnston,1
 445,Brian Kelleher,1
 446,Brian Melancon,1
+26,Brian Ortega,3
 447,Brian Schwartz,1
 448,Brian Sleeman,1
 449,Brian Stann,1
@@ -463,23 +315,23 @@
 462,Bryan Caraway,1
 463,Bryan Pardoe,2
 464,Bryan Travers,1
+27,Bryce Mitchell,4
 465,Bryson Kamaka,3
 466,Bubba Bush,1
 467,Buddy Roberts,1
 468,Byron Bloodworth,1
-469,CB Dollaway,4
-470,CJ Keith,1
-471,CM Punk,1
 472,Cain Carrizosa,1
 473,Cain Velasquez,0
 474,Caio Magalhaes,2
 475,Cal Worsham,2
 476,Cale Yarbrough,3
 477,Callan Potter,3
+28,Calvin Kattar,3
 478,Cameron Dollar,1
 479,Cameron Else,1
 480,Caol Uno,1
 481,Carl Seumanutafa,1
+29,Carla Esparza,4
 482,Carlo Pedersoli Jr.,3
 483,Carlo Prater,3
 484,Carlos Barreto,1
@@ -499,6 +351,7 @@
 498,Casey Olson,4
 499,Cat Zingano,4
 500,Cathal Pendred,1
+469,CB Dollaway,4
 501,Cesar Arzamendia,3
 502,Cesar Gracie,3
 503,Cezar Ferreira,1
@@ -508,13 +361,15 @@
 507,Chad Mendes,4
 508,Chad Reiner,3
 509,Chael Sonnen,4
-510,Chan-Mi Jeon,3
+30,Chan Sung Jung,0
 511,Chance Farrar,1
 512,Chance Rencountre,1
+510,Chan-Mi Jeon,3
 513,Charlene Gellner,1
 514,Charles Byrd,3
 515,Charles Jourdain,1
 516,Charles McCarthy,1
+31,Charles Oliveira,1
 517,Charles Rosa,1
 518,Charlie Brenneman,4
 519,Charlie Kohler,1
@@ -538,6 +393,7 @@
 537,Chris Condo,3
 538,Chris Cope,3
 539,Chris Daukaus,0
+564,Chris de la Rocha,3
 540,Chris Dempsey,1
 541,Chris Fishgold,1
 542,Chris Gruetzemacher,3
@@ -561,8 +417,8 @@
 560,Chris Tickle,4
 561,Chris Tuchscherer,1
 562,Chris Wade,4
+32,Chris Weidman,4
 563,Chris Wilson,1
-564,Chris de la Rocha,3
 565,Christian Aguilera,3
 566,Christian Colombo,3
 567,Christian Morecraft,4
@@ -574,7 +430,10 @@
 573,Chuck Liddell,1
 574,Chuck O'Neil,1
 575,Cindy Dandois,4
+33,Ciryl Gane,1
+470,CJ Keith,1
 576,Claude Patrick,4
+34,Claudia Gadelha,1
 577,Claudio Puelles,4
 578,Claudio Silva,4
 579,Clay Collard,1
@@ -584,11 +443,15 @@
 583,Clint Coronel,3
 584,Clint Godfrey,1
 585,Clint Hester,1
+471,CM Punk,1
 586,Cody Donovan,3
 587,Cody East,3
+35,Cody Garbrandt,1
 588,Cody Gibson,1
 589,Cody McKenzie,1
 590,Cody Pfister,4
+36,Cody Stamann,1
+37,Colby Covington,4
 591,Cole Escovedo,1
 592,Cole Miller,1
 593,Cole Province,1
@@ -600,12 +463,14 @@
 599,Collin Hart,3
 600,Colton Smith,4
 601,Conor Heun,4
+38,Conor McGregor,0
 602,Constantinos Philippou,1
 603,Corey Anderson,2
 604,Corey Hill,4
 605,Cortney Casey,1
 606,Cory Devela,3
 607,Cory Hendricks,1
+39,Cory Sandhagen,2
 608,Cory Walmsley,1
 609,Coty Wheeler,1
 610,Court McGee,2
@@ -619,17 +484,18 @@
 618,Cub Swanson,1
 619,Cung Le,1
 620,Curt Warburton,4
+40,Curtis Blaydes,4
 621,Curtis Millender,1
 622,Curtis Stout,1
+41,Cynthia Calvillo,1
 623,Cyril Asker,3
 624,Cyrille Diabate,1
-625,Da-Un Jung,3
-626,DaMarques Johnson,1
 627,Daichi Abe,1
 628,Daiju Takase,1
 629,Dalcha Lungiambula,4
 630,Dale Hartt,1
 631,Damacio Page,2
+626,DaMarques Johnson,1
 632,Damian Grabowski,3
 633,Damian Stasiak,1
 634,Damien Brown,3
@@ -643,6 +509,8 @@
 642,Dan Evensen,1
 643,Dan Hardy,1
 644,Dan Henderson,1
+42,Dan Hooker,2
+43,Dan Ige,2
 645,Dan Lauzon,1
 646,Dan Miller,1
 647,Dan Molina,1
@@ -682,10 +550,12 @@
 681,Darrell Montague,3
 682,Darren Elkins,4
 683,Darren Stewart,1
+44,Darren Till,1
 684,Darren Uyenoyama,1
 685,Darrick Minner,2
 686,Darrill Schoonover,1
 687,Dashon Johnson,1
+625,Da-Un Jung,3
 688,Dave Beneteau,2
 689,Dave Galera,1
 690,Dave Herman,3
@@ -701,6 +571,7 @@
 700,David Bielkheden,1
 701,David Branch,4
 702,David Dodd,1
+45,David Dvorak,1
 703,David Heath,1
 704,David Hood,1
 705,David Kaplan,1
@@ -715,19 +586,23 @@
 714,David Velasquez,1
 715,David Zawada,1
 716,Dean Lister,1
+46,Deiveson Figueiredo,1
 717,Deividas Taurosevicius,4
 718,Del Hawkins,1
 719,Delson Heleno,1
 720,Demetrious Johnson,4
+47,Demian Maia,4
 721,Denis Kang,4
 722,Denis Stojnic,1
 723,Dennis Bermudez,4
 724,Dennis Hallman,4
 725,Dennis Siver,1
 726,Dequan Townsend,1
+48,Derek Brunson,2
 727,Derek Downey,1
 728,Deron Winn,3
 729,Derrick Krantz,1
+49,Derrick Lewis,1
 730,Derrick Mehmen,1
 731,Derrick Noble,2
 732,Deshaun Johnson,1
@@ -739,6 +614,7 @@
 738,Dhiego Lima,1
 739,Diana Belbita,1
 740,Diego Brandao,2
+50,Diego Ferreira,2
 741,Diego Nunes,1
 742,Diego Rivas,1
 743,Diego Sanchez,1
@@ -753,17 +629,20 @@
 752,Dokonjonosuke Mishima,1
 753,Domingo Pilarte,4
 754,Dominic Waters,1
+51,Dominick Cruz,4
+52,Dominick Reyes,2
 755,Dominique Steele,4
 756,Don Carlo-Clauss,3
 757,Don Frye,2
 758,Don Madge,4
-759,Don'Tale Mayes,1
+53,Donald Cerrone,3
 760,Dong Hyun Kim,4
 761,Dong Hyun Ma,1
 762,Dongi Yang,1
 763,Donnie Chappell,1
 764,Donnie Liles,1
 765,Donny Walker,1
+759,Don'Tale Mayes,1
 766,Dooho Choi,0
 767,Dorian Price,1
 768,Doug Evans,1
@@ -771,6 +650,7 @@
 770,Douglas Silva de Andrade,1
 771,Drakkar Klose,1
 772,Drew Dimanlig,1
+54,Drew Dober,2
 773,Drew Fickett,1
 774,Drew McFedries,2
 775,Dricus Du Plessis,2
@@ -783,6 +663,7 @@
 782,Dustin Neace,1
 783,Dustin Ortiz,4
 784,Dustin Pague,1
+55,Dustin Poirier,2
 785,Dwayne Cason,1
 786,Dwight Grant,1
 787,Dylan Andrews,1
@@ -801,7 +682,9 @@
 800,Edgar Garcia,1
 801,Edilberto de Oliveira,1
 802,Edimilson Souza,1
+56,Edmen Shahbazyan,0
 804,Ednaldo Oliveira,1
+57,Edson Barboza,1
 805,Edson Berto,1
 806,Eduardo Garagorri,1
 807,Edward Faaloloto,3
@@ -856,6 +739,7 @@
 856,Falaniko Vitale,1
 857,Fares Ziam,1
 858,Fedor Emelianenko,1
+58,Felice Herrig,1
 859,Felicia Spencer,2
 860,Felipe Arantes,1
 861,Felipe Colares,1
@@ -871,6 +755,7 @@
 871,Forrest Petz,1
 872,Francimar Barroso,1
 873,Francis Carmont,4
+59,Francis Ngannou,2
 874,Francisco Rivera,1
 875,Francisco Trevino,3
 876,Francisco Trinaldo,1
@@ -883,6 +768,7 @@
 883,Frank Mir,1
 884,Frank Shamrock,2
 885,Frank Trigg,1
+60,Frankie Edgar,4
 886,Frankie Perez,1
 887,Frankie Saenz,1
 888,Fred Ettish,1
@@ -907,6 +793,7 @@
 907,Geane Herrera,1
 908,Gegard Mousasi,4
 909,Genki Sudo,1
+61,Geoff Neal,2
 910,George Bush,2
 911,George Roop,1
 912,George Sotiropoulos,4
@@ -917,6 +804,7 @@
 917,Gerald Strebendt,1
 918,Geraldo de Freitas,4
 919,Gerard Gordeau,2
+62,Germaine de Randamie,1
 920,Gerry Harris,3
 921,Gesias Cavalcante,1
 922,Geza Kalman,4
@@ -926,14 +814,17 @@
 926,Gigo Jara,1
 927,Gil Castillo,4
 928,Gilbert Aldana,1
+63,Gilbert Burns,1
 929,Gilbert Melendez,4
 930,Gilbert Rael,1
 931,Gilbert Smith,1
 932,Gilbert Yvel,1
+64,Gillian Robertson,4
 933,Gina Carano,1
 934,Gina Mazany,3
 935,Glaico Franca Moreira,1
 936,Gleison Tibau,4
+65,Glover Teixeira,2
 937,Godofredo Pepey,1
 938,Gokhan Saki,3
 939,Goran Reljic,1
@@ -944,6 +835,7 @@
 944,Greg Nagy,1
 945,Greg Soto,4
 946,Greg Stott,1
+66,Gregor Gillespie,2
 947,Grigory Popov,1
 948,Guangyou Ning,4
 949,Guido Cannetti,1
@@ -984,6 +876,7 @@
 984,Hiromitsu Miura,1
 985,Hiroyuki Takaya,1
 986,Hitomi Akano,1
+67,Holly Holm,1
 987,Homer Moore,4
 988,Horacio Gutierrez,1
 989,Houston Alexander,3
@@ -997,6 +890,7 @@
 997,Hyun Gyu Lim,3
 998,Ian Entwistle,1
 999,Ian Freeman,1
+68,Ian Heinisch,2
 1000,Ian Loveland,1
 1001,Ian McCall,1
 1002,Icho Larenas,1
@@ -1013,11 +907,14 @@
 1013,Impa Kasanganay,1
 1014,Inoue Mizuki,3
 1015,Ion Cutelaba,0
+69,Irene Aldana,3
 1016,Irwin Rivera,1
 1017,Isaac Vallie-Flagg,3
 1018,Isabela de Padua,4
 1019,Isaiah Hill,1
+70,Islam Makhachev,4
 1020,Ismail Naurdiev,1
+71,Israel Adesanya,1
 1021,Issei Tamura,1
 1022,Iuri Alcantara,1
 1023,Ivan Jorge,4
@@ -1027,9 +924,8 @@
 1027,Ivan Serati,1
 1028,Izabela Badurek,1
 1029,J.T Taylor,1
-1030,JC Cottrell,1
-1031,JJ Aldrich,1
 1032,Jacare Souza,4
+72,Jack Hermansson,2
 1033,Jack Marshman,1
 1034,Jack May,1
 1035,Jack Morrison,3
@@ -1040,6 +936,7 @@
 1040,Jacob Volkmann,4
 1041,Jae Suk Lim,1
 1042,Jai Herbert,1
+73,Jairzinho Rozenstruik,0
 1043,Jake Collier,1
 1044,Jake Ellenberger,1
 1045,Jake Hecht,1
@@ -1073,8 +970,10 @@
 1073,Jamie Mullarkey,1
 1074,Jamie Varner,1
 1075,Jamie Yager,1
+74,Jan Blachowicz,1
 1076,Jan Finney,3
 1077,Jan Nortje,0
+75,Jared Cannonier,1
 1078,Jared Gordon,2
 1079,Jared Hamman,2
 1080,Jared Papazian,1
@@ -1111,6 +1010,7 @@
 1111,Jay Cucciniello,1
 1112,Jay Hieron,3
 1113,Jay Silva,1
+1030,JC Cottrell,1
 1114,Jeff Bedard,4
 1115,Jeff Cox,1
 1116,Jeff Curran,1
@@ -1122,6 +1022,7 @@
 1122,Jeff Terry,3
 1123,Jenel Lausa,1
 1124,Jenna Castillo,4
+76,Jennifer Maia,1
 1125,Jens Pulver,1
 1126,Jeremiah Billington,1
 1127,Jeremiah Metcalf,4
@@ -1131,6 +1032,7 @@
 1131,Jeremy Kimball,1
 1132,Jeremy Lang,4
 1133,Jeremy Larsen,3
+77,Jeremy Stephens,1
 1134,Jermaine Andre,1
 1135,Jerome Rivera,3
 1136,Jerrod Sanders,4
@@ -1147,6 +1049,8 @@
 1147,Jesse Sanders,1
 1148,Jesse Taylor,4
 1149,Jessica Aguilar,3
+78,Jessica Andrade,3
+79,Jessica Eye,1
 1150,Jessica Penne,3
 1151,Jessica Rakoczy,1
 1152,Jessica-Rose Clark,1
@@ -1159,12 +1063,18 @@
 1159,Jim Mullen,1
 1160,Jim Wallhead,3
 1161,Jimi Manuwa,1
+80,Jimmie Rivera,1
 1162,Jimmy Ambriz,1
+81,Jimmy Crute,2
 1164,Jimmy Quinlan,1
 1165,Jimy Hettes,4
 1166,Jin Soo Son,3
 1167,Jinh Yu Frey,1
+82,Jiri Prochazka,3
+1031,JJ Aldrich,1
 1168,Joachim Christensen,3
+83,Joanna Jedrzejczyk,2
+84,Joanne Calderwood,2
 1169,Joao Pierini,1
 1170,Joao Roque,1
 1171,Joao Zeferino,1
@@ -1242,6 +1152,7 @@
 1243,Johnny Rees,4
 1244,Johnny Rhodes,1
 1245,Johnny Sampaio,1
+85,Johnny Walker,2
 1247,Johny Hendricks,4
 1248,Jon Delos Reyes,1
 1249,Jon Fitch,4
@@ -1259,6 +1170,7 @@
 1261,Jonathan Wiezorek,1
 1262,Jonathan Wilson,1
 1263,Jonavin Webb,1
+86,Jordan Espinosa,1
 1264,Jordan Griffin,1
 1265,Jordan Johnson,4
 1266,Jordan Mein,1
@@ -1266,17 +1178,20 @@
 1268,Jordan Rinaldi,1
 1269,Jordan Williams,1
 1270,Jordan Wright,0
+1277,Jorge de Oliveira,1
 1271,Jorge Gurgel,1
 1272,Jorge Lopez,4
+87,Jorge Masvidal,2
 1273,Jorge Ortiz,1
 1274,Jorge Patino,1
 1275,Jorge Rivera,1
 1276,Jorge Santiago,1
-1277,Jorge de Oliveira,1
+88,Jose Aldo,1
 1278,Jose Maria,1
 1279,Jose Palacios,1
 1280,Jose Quinonez,1
 1281,Jose Torres,3
+89,Joseph Benavidez,1
 1282,Joseph Gigliotti,1
 1283,Joseph Morales,1
 1284,Joseph Sandoval,3
@@ -1287,6 +1202,7 @@
 1289,Josh Copeland,1
 1290,Josh Culibao,1
 1291,Josh Diekmann,3
+90,Josh Emmett,1
 1292,Josh Ferguson,1
 1293,Josh Grispi,1
 1294,Josh Haynes,1
@@ -1310,11 +1226,13 @@
 1312,Juan Espino,4
 1313,Juan Manuel Puig,3
 1314,Jules Bruchez,1
+91,Julia Avila,0
 1315,Julia Budd,3
 1316,Julian Erosa,3
 1317,Julian Marquez,1
 1318,Julian Sanchez,3
 1319,Juliana Lima,4
+92,Julianna Pena,4
 1320,Julie Kedzie,1
 1321,Julija Stoliarenko,1
 1322,Julio Arce,1
@@ -1323,11 +1241,14 @@
 1325,Junie Browning,1
 1326,Junior Albini,3
 1327,Junior Assuncao,4
+93,Junior Dos Santos,1
 1328,Junyong Park,2
+94,Jussier Formiga,1
 1329,Justin Buchholz,1
 1330,Justin Edwards,1
 1331,Justin Eilers,1
 1332,Justin Frazier,1
+95,Justin Gaethje,3
 1333,Justin Haskins,1
 1334,Justin Hawes,1
 1335,Justin James,1
@@ -1347,14 +1268,14 @@
 1349,Justin Wren,1
 1350,Justine Kish,1
 1351,Jutaro Nakao,1
-1352,KB Bhullar,3
-1353,KJ Noons,1
 1354,Kai Kamaka,3
+96,Kai Kara-France,2
 1355,Kailin Curran,1
 1356,Kajan Johnson,1
 1357,Kalib Starnes,1
 1358,Kalindra Faria,1
 1359,Kamal Shalorus,1
+97,Kamaru Usman,4
 1360,Karen Darabedyan,1
 1361,Karine Gevorgyan,1
 1362,Karl Roberson,1
@@ -1362,6 +1283,7 @@
 1364,Karo Parisyan,4
 1365,Karol Rosa,3
 1366,Karolina Kowalkiewicz,3
+98,Katlyn Chookagian,1
 1367,Katsuhisa Fujii,4
 1368,Katsunori Kikuno,3
 1369,Kay Hansen,4
@@ -1370,6 +1292,7 @@
 1372,Kazula Vargas,1
 1373,Kazuo Misaki,1
 1374,Kazushi Sakuraba,1
+1352,KB Bhullar,3
 1375,Keigo Kunihara,4
 1376,Keiichiro Yamamiya,1
 1377,Keita Nakamura,1
@@ -1381,6 +1304,7 @@
 1383,Keith Wisniewski,1
 1384,Kelly Dullanty,1
 1385,Kelly Faszholz,1
+99,Kelvin Gastelum,1
 1386,Ken Shamrock,1
 1387,Ken Stone,3
 1388,Kendall Grove,1
@@ -1394,6 +1318,7 @@
 1396,Kenny Florian,4
 1397,Kenny Robertson,4
 1398,Kerry Schall,1
+100,Ketlen Vieira,4
 1399,Kevin Aguilar,1
 1400,Kevin Burns,1
 1401,Kevin Casey,1
@@ -1403,9 +1328,11 @@
 1405,Kevin Jackson,1
 1406,Kevin Jordan,1
 1407,Kevin Knabjian,3
+101,Kevin Lee,4
 1408,Kevin Natividad,1
 1409,Kevin Randleman,4
 1410,Kevin Rosier,1
+102,Khabib Nurmagomedov,4
 1411,Khadis Ibragimov,1
 1412,Khalid Murtazaliev,4
 1413,Khalid Taha,2
@@ -1417,6 +1344,7 @@
 1419,Kim Couture,0
 1420,Kimo Leopoldo,1
 1421,Kit Cope,1
+1353,KJ Noons,1
 1422,Klidson Abreu,1
 1423,Koji Kitao,1
 1424,Koji Oishi,3
@@ -1445,7 +1373,6 @@
 1447,Kyler Phillips,2
 1448,Kyoji Horiguchi,1
 1449,Kyung Ho Kang,4
-1450,LC Davis,1
 1451,Lance Benoist,4
 1452,Lance Gibson,4
 1453,Lando Vannata,1
@@ -1454,8 +1381,10 @@
 1456,Larry Cureton,1
 1457,Laureano Staropoli,1
 1458,Lauren Mueller,1
+103,Lauren Murphy,1
 1459,Lavar Johnson,2
 1460,Laverne Clark,4
+1450,LC Davis,1
 1461,Leah Letson,1
 1462,Leandro Issa,4
 1463,Leandro Silva,1
@@ -1464,6 +1393,7 @@
 1466,Leigh Remedios,1
 1467,Lemont Davis,1
 1468,Leo Kuntz,1
+104,Leon Edwards,4
 1469,Leonard Garcia,1
 1470,Leonardo Guimaraes,1
 1471,Leonardo Mafra,3
@@ -1477,6 +1407,7 @@
 1479,Liana Jojua,1
 1480,Liliya Shakirova,1
 1481,Lina Kvokov,3
+105,Lina Lansberg,1
 1482,Lisa Ellis,1
 1483,Livinha Souza,1
 1484,Liz Carmouche,4
@@ -1522,9 +1453,12 @@
 1524,Maciej Jewtuszko,1
 1525,Mack Brewer,1
 1526,Mackens Semerzier,1
+106,Mackenzie Dern,1
+107,Macy Chiasson,2
 1527,Mads Burnell,4
 1528,Magno Almeida,1
 1529,Magnus Cedenblad,4
+108,Magomed Ankalaev,2
 1530,Magomed Mustafaev,1
 1531,Maia Stevenson,1
 1532,Maiju Kujala,1
@@ -1553,6 +1487,7 @@
 1555,Marcin Bandel,1
 1556,Marcin Held,4
 1557,Marcin Prachnio,1
+109,Marcin Tybura,4
 1558,Marcin Wrzosek,4
 1559,Marcio Alexandre Junior,1
 1560,Marcio Cruz,1
@@ -1571,10 +1506,12 @@
 1573,Marcus Jones,1
 1574,Marcus LeVesseur,4
 1575,Marcus Silveira,1
+110,Marina Rodriguez,2
 1577,Mario Bautista,1
 1578,Mario Miranda,1
 1579,Mario Neto,1
 1580,Mario Rivera,1
+111,Marion Reneau,1
 1581,Marius Zaromskis,3
 1582,Mariya Agapova,2
 1583,Mark Bocek,4
@@ -1596,11 +1533,14 @@
 1599,Mark Weir,0
 1600,Markus Perez,1
 1601,Marloes Coenen,1
+112,Marlon Moraes,1
+113,Marlon Vera,1
 1602,Martin Bravo,3
 1603,Martin Day,3
 1604,Martin Kampmann,1
 1605,Martin Svensson,1
 1606,Marvin Eastman,1
+114,Marvin Vettori,2
 1607,Maryna Moroz,1
 1608,Masanori Kanehara,4
 1609,Masio Fullen,1
@@ -1626,6 +1566,7 @@
 1629,Matt Mitrione,2
 1630,Matt Ricehouse,1
 1631,Matt Sayles,1
+115,Matt Schnell,1
 1632,Matt Serra,4
 1633,Matt Van Buren,3
 1634,Matt Veach,1
@@ -1635,10 +1576,13 @@
 1638,Matthew Semelsberger,3
 1639,Maurice Greene,1
 1640,Maurice Smith,1
+116,Mauricio Rua,1
 1641,Max Griffin,2
+117,Max Holloway,2
 1642,Max Rohskopf,1
 1643,Maxim Grishin,1
 1644,Maximo Blanco,2
+118,Maycee Barber,2
 1645,Mayra Bueno Silva,1
 1646,Megan Anderson,1
 1647,Mehdi Baghdad,1
@@ -1646,8 +1590,10 @@
 1649,Melton Bowen,1
 1650,Melvin Guillard,1
 1651,Melvin Manhoef,1
+119,Merab Dvalishvili,4
 1652,Micah Miller,1
 1653,Michael Bisping,1
+120,Michael Chiesa,4
 1654,Michael Graves,4
 1655,Michael Johnson,1
 1656,Michael Kuiper,1
@@ -1660,6 +1606,7 @@
 1663,Michel Pereira,1
 1664,Michel Prazeres,4
 1665,Michel Quinones,1
+121,Michelle Waterson,1
 1666,Michihiro Omigawa,1
 1667,Michinori Tanaka,4
 1668,Mickael Lebout,1
@@ -1675,6 +1622,7 @@
 1678,Mike Ciesnolevicz,1
 1679,Mike Cook,1
 1680,Mike Davis,3
+1709,Mike de la Torre,3
 1681,Mike Easton,1
 1682,Mike French,1
 1683,Mike Grundy,1
@@ -1700,11 +1648,10 @@
 1703,Mike Seal,2
 1704,Mike Stumpf,1
 1705,Mike Swick,2
+1710,Mike van Arsdale,1
 1706,Mike Wessel,4
 1707,Mike Whitehead,4
 1708,Mike Wilkinson,1
-1709,Mike de la Torre,3
-1710,Mike van Arsdale,1
 1711,Mikey Burnett,2
 1712,Milana Dudieva,1
 1713,Miles Johns,1
@@ -1714,12 +1661,14 @@
 1717,Miranda Maverick,3
 1718,Mirko Filipovic,1
 1719,Mirsad Bektic,4
+122,Misha Cirkunov,2
 1720,Mitch Clarke,1
 1721,Mitch Gagnon,1
 1722,Mitsuhiro Ishida,1
 1723,Mizuto Hirota,1
 1724,Modestas Bukauskas,3
 1725,Molly McCann,2
+123,Montana De La Rosa,4
 1726,Montel Jackson,4
 1727,Mostapha Al-Turk,1
 1728,Moti Horenstein,1
@@ -1742,6 +1691,7 @@
 1745,Naoyuki Kotani,1
 1746,Nasrat Haqparast,2
 1747,Nassourdine Imavov,4
+124,Nate Diaz,2
 1748,Nate James,1
 1749,Nate Landwehr,3
 1750,Nate Loughran,1
@@ -1755,6 +1705,7 @@
 1758,Nathaniel Wood,2
 1759,Nazareno Malegarie,1
 1760,Neil Grove,1
+125,Neil Magny,4
 1761,Neil Seery,1
 1762,Neil Wain,3
 1763,Nicco Montano,4
@@ -1779,9 +1730,11 @@
 1782,Nicolas Dalby,1
 1783,Nik Lentz,4
 1784,Nik Theotikos,1
+126,Nikita Krylov,2
 1785,Niklas Backstrom,1
 1786,Niklas Stolze,1
 1787,Niko Price,3
+127,Nina Ansaroff,1
 1788,Nissen Osterneck,1
 1789,Noad Lahat,4
 1790,Noah Thomas,1
@@ -1800,6 +1753,7 @@
 1803,Olivier Aubin-Mercier,1
 1804,Oluwale Bamgbose,1
 1805,Omar Morales,1
+128,Omari Akhmedov,1
 1806,Orlando Wiet,1
 1807,Oskar Piechota,1
 1808,Ottman Azaitar,2
@@ -1807,6 +1761,7 @@
 1810,Pablo Garza,1
 1811,Paddy Holohan,4
 1812,Paige VanZant,4
+129,Pannie Kianzad,1
 1813,Papy Abedi,1
 1814,Parker Porter,3
 1815,Pascal Krauss,2
@@ -1824,8 +1779,10 @@
 1827,Patrick Williams,1
 1828,Paul Bradley,1
 1829,Paul Buentello,1
+130,Paul Craig,1
 1830,Paul Creighton,1
 1831,Paul Daley,1
+131,Paul Felder,1
 1832,Paul Georgieff,1
 1833,Paul Herrera,3
 1834,Paul Jones,4
@@ -1835,10 +1792,12 @@
 1838,Paul Sass,1
 1839,Paul Taylor,1
 1840,Paul Varelans,1
+132,Paulo Costa,3
 1841,Paulo Filho,1
 1842,Paulo Thiago,1
 1843,Pawel Pawlak,1
 1844,Pearl Gonzalez,4
+133,Pedro Munhoz,3
 1845,Pedro Rizzo,1
 1846,Peggy Morgan,3
 1847,Per Eklund,1
@@ -1847,6 +1806,7 @@
 1850,Pete Williams,1
 1851,Peter Barrett,1
 1852,Peter Sobotta,1
+134,Petr Yan,2
 1853,Phil Baroni,2
 1854,Phil Cardella,1
 1855,Phil Davis,4
@@ -1871,6 +1831,7 @@
 1874,Rafael Carino,4
 1875,Rafael Cavalcante,1
 1876,Rafael Dias,4
+135,Rafael Dos Anjos,1
 1877,Rafael Fiziev,1
 1878,Rafael Natal,1
 1879,Rafael Rebello,4
@@ -1887,11 +1848,14 @@
 1890,Randy Couture,4
 1891,Rani Yahya,4
 1892,Raoni Barcelos,2
+136,Raphael Assuncao,1
 1893,Raphael Pessoa,1
+137,Raquel Pennington,1
 1894,Rashad Coulter,3
 1895,Rashad Evans,4
 1896,Rashid Magomedov,1
 1897,Raul Castillo,1
+138,Raulian Paiva,1
 1898,Ray Borg,4
 1899,Ray Perales,1
 1900,Ray Rodriguez,1
@@ -1947,11 +1911,13 @@
 1950,Roan Carneiro,4
 1951,Rob Broughton,1
 1952,Rob Emerson,1
+139,Rob Font,2
 1953,Rob Kimmons,1
 1954,Rob MacDonald,1
 1955,Rob McCullough,1
 1956,Rob Wilkinson,1
 1957,Rob Yundt,4
+140,Robbie Lawler,1
 1958,Robert Breslin,1
 1959,Robert Densley,1
 1960,Robert Lucarelli,1
@@ -1959,21 +1925,23 @@
 1962,Robert Peralta,1
 1963,Robert Sanchez,4
 1964,Robert Whiteford,1
+141,Robert Whittaker,2
 1965,Roberto Traven,1
 1966,Rocky Lee,1
 1967,Rodney Wallace,1
 1968,Rodolfo Rubio Perez,1
 1969,Rodolfo Vieira,4
 1970,Rodrigo Damm,1
+1973,Rodrigo de Lima,1
 1971,Rodrigo Nascimento,3
 1972,Rodrigo Ruas,3
-1973,Rodrigo de Lima,1
 1974,Roger Bowling,4
 1975,Roger Gracie,1
 1976,Roger Hollett,1
 1977,Roger Huerta,0
 1978,Roger Narvaez,1
 1979,Roger Zapata,1
+142,Rogerio Bontorin,1
 1980,Rogerio Nogueira,1
 1981,Roland Delorme,1
 1982,Roland Payne,3
@@ -1991,8 +1959,8 @@
 1994,Ron Fields,1
 1995,Ron Keslar,1
 1996,Ron Stallings,1
-1997,Ron Waterman,2
 1998,Ron van Clief,1
+1997,Ron Waterman,2
 1999,Ronald Jhun,1
 2000,Ronda Rousey,0
 2001,Ronny Markes,4
@@ -2003,11 +1971,13 @@
 2006,Rory MacDonald,1
 2007,Rory Markham,3
 2008,Rory Singer,1
+143,Rose Namajunas,1
 2009,Rosi Sexton,3
 2010,Ross Pearson,1
 2011,Ross Pointon,1
 2012,Rostem Akman,1
 2013,Rousimar Palhares,1
+144,Roxanne Modafferi,4
 2014,Roy Nelson,1
 2015,Royce Alger,4
 2016,Royce Gracie,1
@@ -2022,6 +1992,7 @@
 2025,Ryan Bader,4
 2026,Ryan Benoit,1
 2027,Ryan Couture,1
+145,Ryan Hall,1
 2028,Ryan Healy,1
 2029,Ryan Janes,3
 2030,Ryan Jensen,1
@@ -2032,6 +2003,7 @@
 2035,Ryan McGillivray,1
 2036,Ryan Parker,1
 2037,Ryan Roberts,3
+146,Ryan Spann,3
 2039,Ryan Stonitsch,1
 2040,Ryan Thomas,4
 2041,Ryo Chonan,4
@@ -2057,6 +2029,7 @@
 2061,Sanae Kikuta,4
 2062,Santiago Ponzinibbio,3
 2063,Saparbeg Safarov,1
+147,Sara McMann,4
 2064,Sarah Alpar,1
 2065,Sarah D'alelio,1
 2066,Sarah Frota,1
@@ -2098,6 +2071,7 @@
 2102,Semmy Schilt,1
 2103,Seo Hee Ham,1
 2104,Sergei Kharitonov,3
+148,Sergei Pavlovich,0
 2105,Sergey Khandozhko,1
 2106,Serghei Spivac,3
 2107,Sergio Gomez,4
@@ -2109,16 +2083,18 @@
 2113,Seth Petruzelli,1
 2114,SeungWoo Choi,1
 2115,Shamar Bailey,1
+149,Shamil Abdurakhimov,1
 2116,Shamil Gamzatov,1
 2117,Shana Dobson,3
+150,Shane Burgos,3
 2118,Shane Campbell,1
 2119,Shane Carwin,2
+2125,Shane del Rosario,1
 2120,Shane Howell,1
 2121,Shane Nelson,1
 2122,Shane Primm,1
 2123,Shane Roller,1
 2124,Shane Young,3
-2125,Shane del Rosario,1
 2126,Shanna Young,1
 2127,Shannon Gugerty,1
 2128,Shavkat Rakhmonov,1
@@ -2134,13 +2110,16 @@
 2138,Shonie Carter,1
 2139,Shunichi Shimizu,1
 2140,Sidney Silva,1
+151,Sijara Eubanks,4
 2141,Simeon Thoresen,1
 2142,Sione Latu,1
 2143,Sirwan Kakai,1
 2144,Siyar Bahadurzada,1
 2145,Soa Palelei,4
+152,Sodiq Yusuff,2
 2146,Solomon Hutcherson,1
 2147,Song Kenan,0
+153,Song Yadong,1
 2148,Spencer Fisher,1
 2149,Spike Carlyle,0
 2150,Stanislav Nedkov,3
@@ -2151,6 +2130,7 @@
 2155,Stephanie Webber,4
 2156,Stephen Bass,3
 2157,Stephen Ledbetter,4
+154,Stephen Thompson,1
 2158,Steve Berger,1
 2159,Steve Bosse,1
 2160,Steve Bruno,1
@@ -2170,18 +2150,12 @@
 2174,Steven Siler,1
 2175,Stevie Lynch,3
 2176,Stevie Ray,1
+155,Stipe Miocic,2
 2177,Su Mudaerji,1
 2178,Sultan Aliev,4
 2179,Suman Mokhtarian,3
 2180,Sung Bin Jo,1
 2181,Syuri Kondo,3
-2182,TJ Brown,4
-2183,TJ Cook,1
-2184,TJ Dillashaw,2
-2185,TJ Grant,1
-2186,TJ Laramie,3
-2187,TJ O'Brien,1
-2188,TJ Waldburger,1
 2189,Tae Hyun Bang,1
 2190,Tagir Ulanbekov,1
 2191,Tai Bowden,1
@@ -2201,6 +2175,7 @@
 2205,Tatsuya Kawajiri,4
 2206,Taylor Lapilus,4
 2207,Te Edwards,4
+156,Tecia Torres,1
 2208,Tedd Williams,4
 2209,Teemu Packalen,3
 2210,Teila Tuli,1
@@ -2214,6 +2189,7 @@
 2218,Thiago Alves,1
 2219,Thiago Moises,1
 2220,Thiago Perpetuo,1
+157,Thiago Santos,1
 2221,Thiago Silva,1
 2222,Thiago Tavares,4
 2223,Thibault Gouti,3
@@ -2225,6 +2201,7 @@
 2229,Tiki Ghosn,1
 2230,Tim Boetsch,1
 2231,Tim Credeur,3
+158,Tim Elliott,4
 2232,Tim Gorman,1
 2233,Tim Hague,3
 2234,Tim Kennedy,4
@@ -2236,6 +2213,13 @@
 2240,Timothy Johnson,4
 2241,Tina Lahdemaki,1
 2242,Tito Ortiz,4
+2182,TJ Brown,4
+2183,TJ Cook,1
+2184,TJ Dillashaw,2
+2185,TJ Grant,1
+2186,TJ Laramie,3
+2187,TJ O'Brien,1
+2188,TJ Waldburger,1
 2243,Todd Brown,1
 2244,Todd Butler,1
 2245,Todd Duffee,0
@@ -2258,6 +2242,7 @@
 2262,Tommy Lee,1
 2263,Tommy Speer,3
 2264,Tony DeSouza,1
+159,Tony Ferguson,2
 2265,Tony Fryklund,1
 2266,Tony Gravely,1
 2267,Tony Halme,1
@@ -2288,13 +2273,17 @@
 2292,Tyler Stinson,1
 2293,Tyler Toner,1
 2294,Tyra Parker,3
+160,Tyron Woodley,1
 2295,Tyrone Roberts,4
 2296,Tyson Griffin,1
+161,Tyson Nam,1
 2297,Tyson Pedro,1
 2298,Ulysses Gomez,1
+162,Uriah Hall,1
 2299,Urijah Faber,1
 2300,Vagner Rocha,1
 2301,Valentijn Overeem,1
+163,Valentina Shevchenko,4
 2302,Valeri Ignatov,1
 2303,Valerie Letourneau,3
 2304,Valmir Lazaro,1
@@ -2303,6 +2292,7 @@
 2307,Vernon Ramos Ho,3
 2308,Vernon White,3
 2309,Veronica Macedo,1
+164,Vicente Luque,3
 2310,Victor Rodriguez,3
 2311,Victor Valenzuela,1
 2312,Victor Valimaki,1
@@ -2315,12 +2305,15 @@
 2319,Vinicius Queiroz,3
 2320,Vinny Magalhaes,3
 2321,Virgil Zwicker,3
+165,Virna Jandiroba,4
 2322,Viscardi Andrade,1
 2323,Vitor Belfort,1
 2324,Vitor Miranda,1
 2325,Vitor Ribeiro,1
+166,Viviane Araujo,3
 2326,Viviane Pereira,1
 2327,Vladimir Matyushenko,4
+167,Volkan Oezdemir,3
 2328,Wade Shipp,1
 2329,Wagner Campos,4
 2330,Wagner Prado,1
@@ -2328,6 +2321,7 @@
 2332,Wagnney Fabiano,4
 2333,Walel Watson,1
 2334,Wallid Ismail,1
+168,Walt Harris,2
 2335,Wanderlei Silva,3
 2336,Wang Guan,1
 2337,War Machine,4
@@ -2354,11 +2348,15 @@
 2358,Wu Yanan,3
 2359,Wuliji Buren,1
 2360,Xavier Foupa-Pokam,1
+169,Yair Rodriguez,1
 2361,Yan Cabral,4
+170,Yan Xiaonan,2
+171,Yana Kunitskaya,4
 2362,Yancy Medeiros,1
 2363,Yao Zhikui,1
 2364,Yaotzin Meza,1
 2365,Yasuhiro Urushitani,1
+172,Yoel Romero,1
 2366,Yoislandy Izquierdo,1
 2367,Yoji Anjo,1
 2368,Yorgan De Castro,1
@@ -2379,6 +2377,7 @@
 2383,Yuta Sasaki,1
 2384,Yves Edwards,1
 2385,Yves Jabouin,1
+173,Zabit Magomedsharipov,4
 2386,Zach Light,1
 2387,Zach Makovsky,1
 2388,Zach Skinner,1
@@ -2392,5 +2391,6 @@
 2396,Zhalgas Zhumagulov,1
 2397,Zhang Lipeng,4
 2398,Zhang Tiequan,1
+174,Zhang Weili,0
 2399,Zoila Frausto,1
 2400,Zubaira Tukhugov,1
