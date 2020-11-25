@@ -4,7 +4,10 @@ import numpy as np
 df_raw = pd.read_csv(r'expanded_data\\cleaned_fight_stats.csv')
 df_labels = pd.read_csv(r'expanded_data\\fighter_clusters.csv')
 df_clustered = df_raw.copy()
-df_clustered['Cluster #'] = df_labels['Cluster']
+df_clustered['Cluster #'] = np.nan
+for index, row in df_labels.iterrows():
+    
+    df_clustered.loc[df_clustered.M_NAME == row['M_NAME'], 'Cluster #'] = row['Cluster']
 
 df_clustered.to_csv(r'expanded_data\\ex_fighters_clustered.csv')
 
