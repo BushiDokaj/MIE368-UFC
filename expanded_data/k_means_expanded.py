@@ -20,17 +20,27 @@ mdk_k_means = KMeans(n_init = 50, n_clusters=5, random_state = 2)
 mdk_k_means.fit(cl_df)
 
 # Get cluster assignments for each data point
-clK = mdk_k_means.labels_
+# clK = mdk_k_means.labels_
 
-# output clusters to files
-orig_cl = pd.DataFrame(df['M_NAME'])
-orig_cl['Cluster'] = clK
+# # output clusters to files
+# orig_cl = pd.DataFrame(df['M_NAME'])
+# orig_cl['Cluster'] = clK
 
-predictions = mdk_k_means.predict(ex_df)
-pred_cl = pd.DataFrame(expanded['M_NAME'])
+# predictions = mdk_k_means.predict(ex_df)
+# pred_cl = pd.DataFrame(expanded['M_NAME'])
+# pred_cl['Cluster'] = predictions
+# fighters_cl = pd.concat([orig_cl, pred_cl])
+# fighters_cl = fighters_cl.drop_duplicates(ignore_index=True)
+# print(fighters_cl)
+
+# fighters_cl.to_csv(r'fighter_clusters.csv')
+
+testing = pd.read_excel(r'testing.xlsx')
+test = testing.iloc[:, 1:]
+test = test.fillna(0)
+
+# getting the predictions for the new data
+predictions = mdk_k_means.predict(test)
+pred_cl = pd.DataFrame(testing['M_NAME'])
 pred_cl['Cluster'] = predictions
-fighters_cl = pd.concat([orig_cl, pred_cl])
-fighters_cl = fighters_cl.drop_duplicates(ignore_index=True)
-print(fighters_cl)
-
-fighters_cl.to_csv(r'fighter_clusters.csv')
+pred_cl.to_csv(r'clusters\\5test.csv')

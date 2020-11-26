@@ -1,15 +1,25 @@
 1
 LogReg
 {'C': 1, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+LR_L2
+{'C': 2, 'class_weight': None, 'solver': 'newton-cg'}
 2
 LogReg
 {'C': 2, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'saga'}
+LR_L2
+{'C': 1, 'class_weight': 'balanced', 'solver': 'newton-cg'}
 3
 LogReg
 {'C': 1, 'class_weight': None, 'l1_ratio': 0.7777777777777777, 'penalty': 'elasticnet', 'solver': 'saga'}
+LR_L2
+{'C': 1, 'class_weight': None, 'solver': 'newton-cg'}
 4
 LogReg
 {'C': 1, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+LR_L2
+{'C': 1, 'class_weight': 'balanced', 'solver': 'newton-cg'}
 5
 LogReg
 {'C': 1, 'class_weight': None, 'penalty': 'l1', 'solver': 'liblinear'}
+LR_L2
+{'C': 2, 'class_weight': None, 'solver': 'newton-cg'}
