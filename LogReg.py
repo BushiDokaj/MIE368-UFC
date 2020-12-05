@@ -9,15 +9,16 @@ pd.set_option('display.max_columns',50)
 def make_models():
     """Makes a dictionary of two untrained models"""
     return {
-        'LogReg': LogisticRegression(random_state=0, max_iter=5000)}
+        'LogReg': LogisticRegression(random_state=0, max_iter=5000),
+        'LR_L2': LogisticRegression(random_state=0, max_iter=5000)}
 #     return {
 #         'LR_L2': LogisticRegression(random_state=0, max_iter=5000),
 #         'LR_L1': LogisticRegression(random_state=0, penalty='l1', solver='liblinear', max_iter=5000, class_weight='balanced'),
 #         'LogRegCV': LogisticRegressionCV(penalty='l1', solver='liblinear', max_iter=10000)}
 
 
-model_names = ['LogReg']
-cluster_num = ("1","2","3","4","5")
+model_names = ('LogReg', 'LR_L2')
+cluster_num = ("KO Artist/Power Punchers","Generalists","Volume Strikers","Brawlers","Grapplers/Wrestlers")
 
 dropping = ["M_RES", "M_NAME", "OP_NAME", "TIME", "ROUNDS", "Method", "Unnamed: 0", "Cluster #", "OP_RES", "M_KD", "OP_KD"]
 df_indices = pd.MultiIndex.from_product([model_names, cluster_num], names=('model names', 'cluster'))
@@ -33,16 +34,10 @@ cluster4 = pd.read_csv(r'expanded_data\\clusters\\cluster_4.csv').fillna(0)
 
 all_clusters = [cluster0,cluster1,cluster2,cluster3,cluster4]
 
-params_to_search = [{'penalty':['l1'], 'solver':['liblinear', 'saga'], 'class_weight': ['balanced', None], 'C': [1,2,3,4,5]},
-{'penalty':['l2'], 'solver': ['newton-cg', 'lbfgs', 'sag'], 'class_weight': ['balanced', None], 'C': [1,2,3,4,5]},
-{'penalty': ['elasticnet'], 'solver':['saga'], 'class_weight': ['balanced', None], 'l1_ratio': np.linspace(0,1,10), 'C': [1,2,3,4,5]}]
-
-
 count = 0
 
 for cluster in all_clusters:
 
-    count = count + 1
     print(count)
 
     cluster['M_SIG_STR_P'] = cluster['M_SIG_STR_P'].str.rstrip('%').astype('float') / 100.0
@@ -62,6 +57,12 @@ for cluster in all_clusters:
 
     models_dict = make_models()
     for model_name in models_dict:
+        if model_name == 'LogReg':
+                params_to_search = [{'penalty':['l1'], 'solver':['liblinear', 'saga'], 'class_weight': ['balanced', None], 'C': [1,2,3,4,5]},
+                {'penalty':['l2'], 'solver': ['newton-cg', 'lbfgs', 'sag', 'saga'], 'class_weight': ['balanced', None], 'C': [1,2,3,4,5]},
+                {'penalty': ['elasticnet'], 'solver':['saga'], 'class_weight': ['balanced', None], 'l1_ratio': np.linspace(0,1,10), 'C': [1,2,3,4,5]}]
+        else:
+                params_to_search = {'solver': ['newton-cg', 'lbfgs', 'sag', 'saga'], 'class_weight': ['balanced', None], 'C': [1,2,3,4,5]}
         print(model_name)
         model = models_dict[model_name]
 
@@ -78,12 +79,14 @@ for cluster in all_clusters:
         opt_model.fit(X_train, y_train)
         train_score = opt_model.score(X_train, y_train)
         test_score = opt_model.score(X_test, y_test)
-        # col = scaler.inverse_transform(opt_model.coef_).tolist()[0]
-        col = opt_model.coef_.tolist()[0]
+        col = scaler.inverse_transform(opt_model.coef_).tolist()[0]
+        # col = opt_model.coef_.tolist()[0]
         col.append(train_score)
         col.append(test_score)
-        all_models.loc[model_name, str(count)] = tuple(col)
-all_models.to_csv(r'expanded_data\\logistic_regression.csv')
+        all_models.loc[model_name, cluster_num(count)] = tuple(col)
+
+    count = count + 1
+all_models.to_csv(r'expanded_data\\logistic_regression_inv_scaled.csv')
 
 
 
